@@ -6,8 +6,8 @@ __pycache__/
 *$py.class
 
 # C extensions
-*.so
-
+*.so q
+/env
 # Distribution / packaging
 .Python
 build/
@@ -28,6 +28,7 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+.env
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
